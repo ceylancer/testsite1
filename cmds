@@ -1,0 +1,9 @@
+sudo nano /etc/nginx/sites-available/gunicorn
+
+gunicorn --bind 0.0.0.0:8000 testsite1.wsgi
+
+sudo service nginx restart
+
+sudo nginx -t
+
+lankanbuyer.com
