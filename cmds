@@ -1,3 +1,4 @@
+############# Useful commands ###############
 sudo nano /etc/nginx/sites-available/gunicorn
 
 gunicorn --bind 0.0.0.0:8000 testsite1.wsgi
@@ -11,3 +12,9 @@ lankanbuyer.com
 sudo ln -s /etc/nginx/sites-available/gunicorn /etc/nginx/sites-enabled/
 
 sudo nano /etc/nginx/nginx.conf
+
+################################################
+
+################# Todo in the server ###########
+
+################################################
