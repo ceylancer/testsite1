@@ -7,7 +7,7 @@ class App extends Component {
             <div>
                 <div className="jumbotron text-center">
                     <h1>LankanBuyer.COM</h1>
-                    <p>The best classified website so far. Coming soon!</p>
+                    <p>Coming soon!</p>
                 </div>
                 <div className="container">
                     <div className="row">
