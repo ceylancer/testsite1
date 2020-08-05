@@ -1,0 +1,17 @@
+echo $SHELL
+source venv/bin/activate
+
+function rundev() {
+  python manage.py runserver
+}
+
+function run() {
+  git pull
+  gunicorn --bind 0.0.0.0:8000 testsite1.wsgi
+}
+
+function uploadall() {
+  git add .
+  git commit -m "Upload"
+  git push -u origin master
+}
