@@ -7,3 +7,7 @@ sudo service nginx restart
 sudo nginx -t
 
 lankanbuyer.com
+
+sudo ln -s /etc/nginx/sites-available/gunicorn /etc/nginx/sites-enabled/
+
+sudo nano /etc/nginx/nginx.conf
