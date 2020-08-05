@@ -24,7 +24,7 @@ SECRET_KEY = 'o*s^u1l=u(9a+(camf_7drtphizb5=66)i#0fam3d7!ob1n(*u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['lankanbuyer.com', '52.5.68.180', '127.0.0.1']
+ALLOWED_HOSTS = ['www.lankanbuyer.com', 'lankanbuyer.com', '52.5.68.180', '127.0.0.1']
 
 # Application definition
 
